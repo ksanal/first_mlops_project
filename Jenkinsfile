@@ -4,7 +4,7 @@ pipeline {
     environment {
         VENV_DIR    = 'venv'
         GCP_PROJECT = "dh-gcp-infra-sandbox"
-        GCP_REGION  = "asia-south1-a"
+        GCP_REGION  = "asia-south1"
         REPO_NAME   = "demo-repo"
         IMAGE_NAME  = "ml-project-1"
         GCLOUD_PATH = "/var/jenkins_home/google-cloud-sdk/bin"
