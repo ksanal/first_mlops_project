@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         VENV_DIR    = 'venv'
-        GCP_PROJECT = "bustracking-467614"
-        GCP_REGION  = "us-central1"
-        REPO_NAME   = "edtech-repo"
-        IMAGE_NAME  = "ml-project"
+        GCP_PROJECT = "dh-gcp-infra-sandbox"
+        GCP_REGION  = "asia-south1-a"
+        REPO_NAME   = "demo-repo"
+        IMAGE_NAME  = "ml-project-1"
         GCLOUD_PATH = "/var/jenkins_home/google-cloud-sdk/bin"
     }
 
